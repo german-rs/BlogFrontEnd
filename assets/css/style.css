@@ -35,21 +35,25 @@ body{
     --texto-categoria: #FFFFFF;
 }
 
+.caja-flexible{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* Fin configuraciones generales. */
+
+
+/* Nav. */
 .navegacion{
     width: 100%;
     margin-bottom: 3rem;
 }
 
 
-
-
 /* Novedades. */
 .novedades{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
     margin-bottom: 3rem;
 }
 
@@ -98,12 +102,7 @@ body{
 
 /* Sección popular. */
 .principal{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     gap: 10px;
-    flex-wrap: wrap;
     margin-bottom: 3rem;
 }
 
@@ -198,12 +197,7 @@ body{
 
 /* Footer. */
 .pie{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .pie__texto{
@@ -284,7 +278,6 @@ body{
 /* Fin componentes reutilizables. */
 
 
-
 /* Contenedor. */
 .contenedor {
     width: 85%;
@@ -328,10 +321,3 @@ body{
         max-width: 1280px;
     }
 }
-
-/* 2xl. */
-/* @media (min-width: 1536px) {
-    .contenedor {
-        max-width: 1536px;
-    }
-} */
