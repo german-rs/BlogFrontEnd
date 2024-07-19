@@ -40,23 +40,25 @@ body{
     margin-bottom: 3rem;
 }
 
-.cabecera{
+
+
+
+/* Novedades. */
+.novedades{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 3rem;
-
 }
 
-
-.novedad__titulo{
+.novedad-principal__titulo{
     font-size: 28px; 
     font-weight: 700;
 }
 
-.novedad__imagen{
+.novedad-principal__imagen{
     max-width: 600px;
     height: auto;
     border-radius: 20px;
@@ -68,7 +70,7 @@ body{
     }
 }
 
-.novedad__subtitulo{
+.novedad-principal__subtitulo{
     font-size: 24px;
     font-weight: 700;
 }
@@ -77,22 +79,24 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
-
     margin-top: 40px;
 }
 
-.articulo{
+.novedades-lateral__articulo{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
 }
-.articulo__imagen{
+
+.novedades-lateral__imagen{
     width: 190px;
     border-radius: 20px;
 }
+/* Novedades. */
 
 
+/* Sección popular. */
 .principal{
     width: 100%;
     display: flex;
@@ -103,8 +107,6 @@ body{
     margin-bottom: 3rem;
 }
 
-
-/* Sección popular. */
 .popular{
     width: 705px;
 }
