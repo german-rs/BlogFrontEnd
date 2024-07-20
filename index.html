@@ -26,73 +26,73 @@
 </head>
 
 <body>
-    <nav class="navegacion contenedor">
-        <div class="logo">
+    <header class="cabecera contenedor">
+        <div class="cabecera__logo">
             <img class="logo__imagen" src="./assets/img/logos/adl.png" alt="Logo Desafío Latam">
             <a href="#" class="logo__texto">Blog FrontEnd</a>
         </div>
-    </nav>
+    </header>
 
     <!-- Sección de héroe. -->
-    <header class="novedades caja-flexible contenedor">
+    <section class="novedades caja-flexible contenedor">
 
-        <section class="novedad-principal">
-            <h1 class="novedad-principal__titulo">Novedades</h1>
-            <img class="novedad-principal__imagen" src="./assets/img/posts/bootstrap.png" alt="Logo de bootstrap">
-            <div class="fecha">
+        <article class="novedad__principal">
+            <h1 class="novedad__titulo">Novedades</h1>
+            <img class="novedad__imagen" src="./assets/img/posts/bootstrap.png" alt="Logo de bootstrap">
+            <div class="novedad__fecha">
                 <p class="fecha__texto">24 Noviembre, 2022</p>
             </div>
-            <h2 class="novedad-principal__subtitulo">Modifica el tema de Bootstrap con variables CSS</h2>
-            <div class="autor">
+            <h2 class="novedad__subtitulo">Modifica el tema de Bootstrap con variables CSS</h2>
+            <div class="novedad__autor">
                 <img class="autor__imagen--principal" src="./assets/img/logos/adl.png" alt="Logo autor">
                 <p class="autor__texto--principal">Desafío Latam</p>
             </div>
-        </section>
+        </article>
 
-        <aside class="novedades-lateral">
+        <aside class="novedades__lateral">
 
-            <!-- Primer artículo. -->
-            <article class="novedades-lateral__articulo">
+            <!-- Artículo 1. -->
+            <article class="novedades__articulo">
                 <img class="novedades-lateral__imagen" src="./assets/img/posts/Herencia-JS.png" alt="JavaScript en nodos">
 
-                <div class="articulo__cuerpo">
-                    <div class="fecha">
+                <div class="novedades-lateral__cuerpo">
+                    <div class="novedades-lateral__fecha">
                         <p class="fecha__texto">24 Noviembre, 2022</p>
                     </div>
-                    <h3 class="cuerpo__titulo">Herencia en JavaScript</h3>
-                    <div class="autor">
+                    <h3 class="novedades-lateral__titulo">Herencia en JavaScript</h3>
+                    <div class="novedades-lateral__autor">
                         <img class="autor__imagen" src="./assets/img/logos/adl.png" alt="Logo autor">
                         <p class="autor__texto">Desafío Latam</p>
                     </div>
                 </div>
             </article>
 
-            <!-- Segundo artículo. -->
-            <article class="novedades-lateral__articulo">
+            <!-- Artículo 2. -->
+            <article class="novedades__articulo">
                 <img class="novedades-lateral__imagen" src="./assets/img/posts/Etiquetas-semanticas-HTML.png" alt="etiquetas semánticas">
 
-                <div class="articulo__cuerpo">
-                    <div class="fecha">
+                <div class="novedades-lateral__cuerpo">
+                    <div class="novedades-lateral__fecha">
                         <p class="fecha__texto">24 Noviembre, 2022</p>
                     </div>
-                    <h3 class="cuerpo__titulo">Etiquetas semánticas</h3>
-                    <div class="autor">
+                    <h3 class="novedades-lateral__titulo">Etiquetas semánticas</h3>
+                    <div class="novedades-lateral__autor">
                         <img class="autor__imagen" src="./assets/img/logos/adl.png" alt="Logo autor">
                         <p class="autor__texto">Desafío Latam</p>
                     </div>
                 </div>
             </article>
 
-            <!-- Tercer artículo. -->
-            <article class="novedades-lateral__articulo">
+            <!-- Artículo 3. -->
+            <article class="novedades__articulo">
                 <img class="novedades-lateral__imagen" src="./assets/img/posts/reactComponents.png" alt="logo de react">
 
-                <div class="articulo__cuerpo">
-                    <div class="fecha">
+                <div class="novedades-lateral__cuerpo">
+                    <div class="novedades-lateral__fecha">
                         <p class="fecha__texto">24 Noviembre, 2022</p>
                     </div>
-                    <h3 class="cuerpo__titulo">Componentes de React</h3>
-                    <div class="autor">
+                    <h3 class="novedades-lateral__titulo">Componentes de React</h3>
+                    <div class="novedades-lateral__autor">
                         <img class="autor__imagen" src="./assets/img/logos/adl.png" alt="Logo autor">
                         <p class="autor__texto">Desafío Latam</p>
                     </div>
@@ -100,7 +100,7 @@
             </article>
 
         </aside>
-    </header>
+    </section>
     <!-- Fin sección de héroe. -->
 
 
@@ -113,63 +113,63 @@
 
             <div class="popular__articulos">
 
-                <!-- Entrada 1. -->
+                <!-- Artículo 1. -->
                 <article class="popular__articulo">
                     <img class="popular__imagen" src="./assets/img/posts/vue-components.png"
                         alt="Log de VueJS y dispositivos">
-                    <div class="cuerpo">
-                        <div class="fecha">
+                    <div class="popular-articulos__cuerpo">
+                        <div class="popular-articulos__fecha">
                             <p class="fecha__texto">24 Noviembre, 2022</p>
                         </div>
-                        <h3 class="cuerpo__titulo">Componentes Vue</h3>
-                        <div class="autor">
+                        <h3 class="popular-articulos__titulo">Componentes Vue</h3>
+                        <div class="popular-articulos__autor">
                             <img class="autor__imagen" src="./assets/img/logos/adl.png" alt="Logo autor">
                             <p class="autor__texto">Desafío Latam</p>
                         </div>
                     </div>
                 </article>
 
-                <!-- Entrada 2. -->
+                <!-- Artículo 2. -->
                 <article class="popular__articulo">
                     <img class="popular__imagen" src="./assets/img/posts/api-js.png"
                         alt="Representación de la arquitectura de consumo de API">
-                    <div class="cuerpo">
-                        <div class="fecha">
+                    <div class="popular-articulos__cuerpo">
+                        <div class="popular-articulos__fecha">
                             <p class="fecha__texto">24 Noviembre, 2022</p>
                         </div>
-                        <h3 class="cuerpo__titulo">Consumo de API con JS</h3>
-                        <div class="autor">
+                        <h3 class="popular-articulos__titulo">Consumo de API con JS</h3>
+                        <div class="popular-articulos__autor">
                             <img class="autor__imagen" src="./assets/img/logos/adl.png" alt="Logo autor">
                             <p class="autor__texto">Desafío Latam</p>
                         </div>
                     </div>
                 </article>
 
-                <!-- Entrada 3. -->
+                <!-- Artículo 3. -->
                 <article class="popular__articulo">
                     <img class="popular__imagen" src="./assets/img/posts/sass.jpg" alt="Log de Sass">
-                    <div class="cuerpo">
-                        <div class="fecha">
+                    <div class="popular-articulos__cuerpo">
+                        <div class="popular-articulos__fecha">
                             <p class="fecha__texto">24 Noviembre, 2022</p>
                         </div>
-                        <h3 class="cuerpo__titulo">CSS reutilizable con Sass</h3>
-                        <div class="autor">
+                        <h3 class="popular-articulos__titulo">CSS reutilizable con Sass</h3>
+                        <div class="popular-articulos__autor">
                             <img class="autor__imagen" src="./assets/img/logos/adl.png" alt="Logo autor">
                             <p class="autor__texto">Desafío Latam</p>
                         </div>
                     </div>
                 </article>
 
-                <!-- Entrada 4. -->
+                <!-- Artículo 4. -->
                 <article class="popular__articulo">
                     <img class="popular__imagen" src="./assets/img/posts/bootstrap.png"
                         alt="Log de VueJS y dispositivos">
-                    <div class="cuerpo">
-                        <div class="fecha">
+                    <div class="popular-articulos__cuerpo">
+                        <div class="popular-articulos__fecha">
                             <p class="fecha__texto">24 Noviembre, 2022</p>
                         </div>
-                        <h3 class="cuerpo__titulo">Componentes Bootstrap</h3>
-                        <div class="autor">
+                        <h3 class="popular-articulos__titulo">Componentes Bootstrap</h3>
+                        <div class="popular-articulos__autor">
                             <img class="autor__imagen" src="./assets/img/logos/adl.png" alt="Logo autor">
                             <p class="autor__texto">Desafío Latam</p>
                         </div>
@@ -221,7 +221,7 @@
 
     <!-- Pie de página. -->
     <footer class="pie caja-flexible contenedor">
-        <div class="logo">
+        <div class="pie__logo">
             <img class="logo__imagen" src="./assets/img/logos/adl.png" alt="Logo Desafío Latam">
             <a href="#" class="logo__texto">Blog FrontEnd</a>
         </div>

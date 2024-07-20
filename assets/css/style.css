@@ -45,8 +45,8 @@ body{
 /* Fin configuraciones generales. */
 
 
-/* Nav. */
-.navegacion{
+/* Cabecera. */
+.cabecera{
     width: 100%;
     margin-bottom: 3rem;
 }
@@ -57,12 +57,7 @@ body{
     margin-bottom: 3rem;
 }
 
-.novedad-principal__titulo{
-    font-size: 28px; 
-    font-weight: 700;
-}
-
-.novedad-principal__imagen{
+.novedad__imagen{
     max-width: 600px;
     height: auto;
     border-radius: 20px;
@@ -74,23 +69,14 @@ body{
     }
 }
 
-.novedad-principal__subtitulo{
+.novedad__subtitulo{
     font-size: 24px;
     font-weight: 700;
 }
 
-.novedades-lateral{
-    display: flex;
-    flex-direction: column;
+.novedades__lateral{
     gap: 20px;
     margin-top: 40px;
-}
-
-.novedades-lateral__articulo{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
 }
 
 .novedades-lateral__imagen{
@@ -112,20 +98,9 @@ body{
 
 .popular__titulo{
     margin-bottom: 30px;
-    font-size: 28px; 
-    font-weight: 700;
-}
-
-.popular__articulos{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    flex-wrap: wrap;
 }
 
 .popular__articulo{
-    display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
@@ -134,24 +109,12 @@ body{
     height: 200px;
     border-radius: 20px;
 }
+/* Fin sección popular. */
 
 
 /* Categorias. */
 .categoria{
-    display: flex;
-    flex-direction: column;
     gap: 30px;
-}
-
-.categoria__titulo{
-    font-size: 28px; 
-    font-weight: 700;
-    color: var(--textos);
-}
-
-.categoria__texto--final{
-    font-size: 20px;
-    font-weight: 400;
 }
 
 .categoria__item{
@@ -199,11 +162,6 @@ body{
 .pie{
     align-items: center;
 }
-
-.pie__texto{
-    font-size: 20px;
-    font-weight: 400;
-}
 /* Fin footer. */
 
 
@@ -215,14 +173,46 @@ body{
     font-weight: 400;
 }
 
-.cuerpo__titulo{
+.novedades-lateral__titulo,
+.popular-articulos__titulo{
     font-size: 20px;
+    font-weight: 700;
+}
+
+.categoria__texto--final,
+.pie__texto{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.popular__titulo,
+.categoria__titulo,
+.novedad__titulo{
+    font-size: 28px; 
     font-weight: 700;
 }
 /* Fin textos. */
 
+
+/* Cajas flex. */
+.novedades__articulo,
+.popular__articulos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.novedades__lateral,
+.popular__articulo,
+.categoria{
+    display: flex;
+    flex-direction: column;
+}
+
 /* Logotipo.  */
-.logo{
+.cabecera__logo,
+.pie__logo{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -245,7 +235,9 @@ body{
 
 
 /* Autor de las entradas. */
-.autor{
+.novedades-lateral__autor,
+.popular-articulos__autor,
+.novedad__autor{
    display: flex;
    flex-direction: row;
    align-items: center;
